@@ -7,14 +7,14 @@
 
 //the full URLs of all the sites in the ring
 var sites = [
-'https://torquuato.github.io/torquato/',
-'https://torquuato.github.io/manxring/index.html',
+'https://torquuato.github.io/manxring/',
+'https://example.com/',
 'https://example.com/',
 'https://example.com/'
 ];
 
 //the name of the ring
-var ringName = 'manxring';
+var ringName = 'Manxring';
 
 /* the unique ID of the widget. two things to note:
  1) make sure there are no spaces in it - use dashes or underscores if you must
