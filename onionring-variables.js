@@ -8,7 +8,7 @@
 //the full URLs of all the sites in the ring
 var sites = [
 'https://torquuato.github.io/torquato/',
-'https://example.com/',
+'https://torquuato.github.io/manxring/index.html',
 'https://example.com/',
 'https://example.com/'
 ];
@@ -24,7 +24,7 @@ var ringID = 'manxring';
 //should the widget include a link to an index page?
 var useIndex = false;
 //the full URL of the index page. if you're not using one, you don't have to specify anything here
-var indexPage = 'https://example.com/index.html';
+var indexPage = 'https://torquuato.github.io/manxring/index.html';
 
 //should the widget include a random button?
 var useRandom = true;
