@@ -8,9 +8,8 @@
 //the full URLs of all the sites in the ring
 var sites = [
 'https://torquuato.github.io/manxring/',
-'https://example.com/',
-'https://example.com/',
-'https://example.com/'
+'https://torquuato.github.io/torquato/',
+'https://torquuato.github.io/danielversewiki'
 ];
 
 //the name of the ring
