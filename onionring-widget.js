@@ -56,17 +56,14 @@ else {
 
   //this is the code that displays the widget - EDIT THIS if you want to change the structure
   tag.insertAdjacentHTML('afterbegin', `
-  <table>
-    <tr>
-      <td class='webring-prev'><a href='${sites[previousIndex]}'>â† previous</a></td>
-      <td class='webring-info'>This site is part of the ${ringName} webring</br>
-      <span class='webring-links'>
-        ${randomText}
-        ${indexText}
-        <a href='https://garlic.garden/onionring/'>what is this?</a></span></td>
-      <td class='webring-next'><a href='${sites[nextIndex]}'>next â†’</a></td>
-    </tr>
-  </table>
+<img src="https://torquuato.github.io/manxring/manxring.png" usemap="#image-map">
+
+<map name="image-map">
+    <area target='_blank' href='${sites[previousIndex]}' coords='19,134,91,160' shape='rect'>
+    <area target='_blank' href='${sites[nextIndex]}' coords='272,42,339,67' shape='rect'>
+    <area target='_blank' href='javascript:void(0)' onclick='randomSite()' coords='193,307,249,284' shape='rect'>
+    <area target='_blank' href='${indexPage}' coords='152,138,120,171,116,179,102,195,101,208,109,220,119,224,132,237,171,267,172,275,164,312,170,316,182,306,186,290,201,272,198,263,187,261,178,249,161,223,151,214,140,206,179,177,223,190,241,190,257,195,272,184,275,175,272,166,279,142,282,119,283,100,297,91,327,83,329,78,314,73,301,75,283,74,274,73,270,80,270,91,257,116,248,140,247,157,244,157,219,145,201,135,185,90,179,82,172,62,163,57,150,55,137,65,127,67,91,82,82,89,74,89,57,78,42,63,35,64,39,80,50,91,56,104,57,111,63,116,74,109,86,106,108,104,128,99,139,96,147,89' shape='poly'>
+</map>
   `);
 
 }
