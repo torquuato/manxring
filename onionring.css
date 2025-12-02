@@ -5,32 +5,32 @@
 /* === ONIONRING.CSS === */
 /* this file affects the style of the widget. remember to replace all instances of #webringid with whatever value you have for ringID in the onionring-widget.js file. make sure it still has the # at the front, though! probably easiest to use find+replace to do it */
 
-#manxring {
+#trq-manxring {
   margin: 0 auto;
   padding: 15px; /* creates some space around the widget */
 }
 
-#manxring table {
+#trq-manxring table {
   background-color: #000000; /* makes the background pure white */
   margin: 0 auto; /* centers the widget */
 }
 
-#manxring table tr td {
+#trq-manxring table tr td {
   padding: 15px; /* creates some space between the links and text inside the widget */
 }
 
-#manxring .webring-prev {
+#trq-manxring .webring-prev {
   text-align:right;
 }
 
-#manxring .webring-info {
+#trq-manxring .webring-info {
    text-align:center;
 }
 
-#manxring .webring-next {
+#trq-manxring .webring-next {
   text-align:left;
 }
 
-#manxring .webring-links {
+#trq-manxring .webring-links {
   font-size:small;
 }
