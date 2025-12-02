@@ -3,11 +3,16 @@
   font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
+ul,ol{
+  text-align: left;
+}
+
 body {
   background: url('https://torquuato.github.io/manxring/bg-tartan.jpg') repeat;
   background-size: 220px 220px;
   animation: bg-scrolling 150s linear infinite;
   overflow-y: scroll;
+  text-align: center;
 }
 
 p{
