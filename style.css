@@ -1,7 +1,5 @@
 
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #ffffff;
   background: url('https://torquuato.github.io/manxring/bg-tartan.jpg') repeat;
   background-size: 220px 220px;
   animation: bg-scrolling 150s linear infinite;
