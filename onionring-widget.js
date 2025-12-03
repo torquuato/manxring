@@ -62,7 +62,7 @@ else {
 <map name="image-map">
     <area target='_blank' href='${sites[previousIndex]}' alt="previous" title="previous" coords="0,13,60,106" shape="rect">
     <area target='_blank' href='${sites[nextIndex]}' alt="next" title="next" coords="241,16,299,107" shape="rect">
-    <area target='_blank' href='javascript:void(0)' onclick='randomSite()' alt="random" title="random" coords="69,97,231,128" shape="rect">
+    <area target='_blank' href='javascript:randomSite()' alt="random" title="random" coords="69,97,231,128" shape="rect">
     <area target='_blank' href='${indexPage}'coords="69,92,230,0" shape="rect">
 </map>
   `);
