@@ -120,3 +120,22 @@ h1, h2, h3, h4{
 textarea{
   resize: none;
 }
+
+table, th, td {
+    border: 3px double #000;
+    border-collapse: collapse;
+}
+
+th{
+  background: #9b0000;
+  color: #ffffff;
+}
+
+td img{
+  width: 88px;
+  transition: ease 0.2s;
+}
+
+td img:hover{
+  transform: scale(1.1);
+}
