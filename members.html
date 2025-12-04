@@ -10,7 +10,28 @@
 </head>
 
 <body>
+    <style>
+        table,
+        th,
+        td {
+            border: 3px double #000;
+            border-collapse: collapse;
+        }
 
+        th {
+            background: #9b0000;
+            color: #ffffff;
+        }
+
+        td img {
+            width: 88px;
+            transition: ease 0.2s;
+        }
+
+        td img:hover {
+            transform: scale(1.1);
+        }
+    </style>
     <div id="container">
         <div id="headerArea">
             <div id="header"><img src="flag.gif">
@@ -34,7 +55,7 @@
                 <h2 style="color: #b5b5b5; margin-top: 0px;"><i>'Members'</i></h2>
                 <table>
                     <tr>
-                        
+
                         <th>Site Button</th>
                         <th>Name</th>
                         <th>Description</th>
@@ -48,7 +69,8 @@
                             torquato
                         </td>
                         <td>
-                            (me!) a personal site where i you can find my projects, newsletter and a collection of my physical media!
+                            (me!) a personal site where i you can find my projects, newsletter and a collection of my
+                            physical media!
                         </td>
                         <td>
                             Web-14
